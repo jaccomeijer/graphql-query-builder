@@ -1,9 +1,6 @@
 # Redux cache
 reduxcache*
 
-# Wheelroom Compiled Config
-compiled-config/
-
 # Compiled source for NPM
 dist/
 

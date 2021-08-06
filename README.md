@@ -9,6 +9,7 @@ Small library to build graphQL queries dynamically.
 The library translates a javascript object into a GraphQL query string.
 
 The object below:
+
 ```javascript
 {
   fields: {
@@ -21,6 +22,7 @@ The object below:
 ```
 
 Turns into:
+
 ```graphql
 query firstAndLastName {
   firstName
@@ -36,7 +38,7 @@ See [jest test script](src/graphql-query-builder.int.test.ts) for a larger examp
 import {
   graphqlQueryBuilder as qb,
   Question,
-} from '@wheelroom/graphql-query-builder'
+} from '@jaccomeijer/graphql-query-builder'
 
 const question: Question = {
   fields: {
